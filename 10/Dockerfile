@@ -215,4 +215,5 @@ STOPSIGNAL SIGINT
 # that even 90 seconds may not be long enough in many instances.
 
 EXPOSE 5432
+USER postgres
 CMD ["postgres"]
